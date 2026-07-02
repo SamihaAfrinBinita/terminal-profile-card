@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Binita — whoami</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scene">
+  <div class="window" role="region" aria-label="Terminal profile card">
+    <div class="titlebar">
+      <div class="dots">
+        <span class="dot dot-close"></span>
+        <span class="dot dot-min"></span>
+        <span class="dot dot-max"></span>
+      </div>
+      <div class="tab">binita@uiu: ~</div>
+      <div class="titlebar-spacer"></div>
+    </div>
+
+    <div class="body" id="terminal-body">
+      <div class="line static">
+        <span class="prompt">binita@uiu</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span>
+        <span class="cmd" id="cmd1"></span><span class="cursor" id="cursor1">█</span>
+      </div>
+
+      <div class="output" id="output1" hidden>
+        <pre class="ascii">
+ ____  _       _ _
+| __ )(_)_ __ (_) |_ __ _
+|  _ \| | '_ \| | __/ _` |
+| |_) | | | | | | || (_| |
+|____/|_|_| |_|_|\__\__,_|
+        </pre>
+      </div>
+
+      <div class="line static" id="line2" hidden>
+        <span class="prompt">binita@uiu</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span>
+        <span class="cmd" id="cmd2"></span><span class="cursor" id="cursor2">█</span>
+      </div>
+
+      <div class="output" id="output2" hidden>
+        <ul class="info-list">
+          <li><span class="key">role</span> <span class="val">CSE Student, School of Business &amp; Economics</span></li>
+          <li><span class="key">university</span> <span class="val">United International University (UIU)</span></li>
+          <li><span class="key">location</span> <span class="val">Dhaka, Bangladesh</span></li>
+          <li><span class="key">focus</span> <span class="val">Databases · Electronics · UI Design</span></li>
+          <li><span class="key">status</span> <span class="val">learning_figma(from_scratch=True)</span></li>
+        </ul>
+      </div>
+
+      <div class="line static" id="line3" hidden>
+        <span class="prompt">binita@uiu</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span>
+        <span class="cmd" id="cmd3"></span><span class="cursor" id="cursor3">█</span>
+      </div>
+
+      <div class="output" id="output3" hidden>
+        <div class="skills">
+          <span class="pill">SQL</span>
+          <span class="pill">MIPS / Computer Architecture</span>
+          <span class="pill">Python</span>
+          <span class="pill">Figma</span>
+          <span class="pill">Group Leadership</span>
+        </div>
+      </div>
+
+      <div class="line static" id="line4" hidden>
+        <span class="prompt">binita@uiu</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span>
+        <span class="cmd" id="cmd4"></span><span class="cursor" id="cursor4">█</span>
+      </div>
+
+      <div class="output" id="output4" hidden>
+        <div class="links">
+          <a href="#" class="link-item">github.com/your-username</a>
+          <a href="#" class="link-item">linkedin.com/in/your-profile</a>
+          <a href="#" class="link-item">your-email@example.com</a>
+        </div>
+      </div>
+
+      <div class="line static" id="line5" hidden>
+        <span class="prompt">binita@uiu</span><span class="colon">:</span><span class="path">~</span><span class="dollar">$</span>
+        <span class="cursor" id="cursor5">█</span>
+      </div>
+    </div>
+  </div>
+
+  <p class="hint">edit the commands &amp; content in <code>index.html</code> and <code>script.js</code> — make it yours</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
